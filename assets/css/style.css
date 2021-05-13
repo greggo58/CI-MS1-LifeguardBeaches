@@ -1,0 +1,74 @@
+/* ----------------------------------- Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* ----------------------------------- Body */
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+/* ----------------------------------- Background Colours */
+
+/*.body-bg-color {
+    background-image: linear-gradient(to left bottom, #e50000, #f10031, #f60054, #f50075, #ec0095, #e020ad, #ce36c5, #b549da, #9a5eea, #7b6ff5, #537dfc, #0088ff);
+}*/
+
+/* ----------------------------------- Heading */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("https://c.pxhere.com/photos/2f/99/lifeguard_summer_beach_sand_sea-224.jpg!d");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+/* ----------------------------------- Background Colour For Testing Divs */
+
+.bg-color-test1 {
+    background-color: blueviolet;
+}
+
+.bg-color-test2 {
+    background-color: brown;
+}
+
+.bg-color-test3 {
+    background-color: cadetblue;
+}
+
+.bg-color-test4 {
+    background-color: chartreuse;
+}
+
+.bg-color-test5 {
+    background-color: deeppink;
+}
+
+.bg-color-test6 {
+    background-color: gold;
+}
+
+.bg-color-test7 {
+    background-color: green;
+}
+
+.bg-color-test8 {
+    background-color: orchid;
+}

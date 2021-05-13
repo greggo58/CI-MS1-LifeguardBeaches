@@ -70,6 +70,8 @@ The features are set out in a way to display consumable data to the user in smal
 + CSS Color Gradient: [ColorSpace 3-Color Gradient](https://mycolor.space/gradient3) `background-image: linear-gradient(to right top, #e50000, #f10031, #f60054, #f50075, #ec0095, #e020ad, #ce36c5, #b549da, #9a5eea, #7b6ff5, #537dfc, #0088ff);`
 + Button CSS hover events: [cdjns hover.css](https://cdnjs.com/libraries/hover.css) | [IanLunn / Hover](https://github.com/IanLunn/Hover/blob/master/css/hover.css) /* Shadow Radial */
 + Layout: [Bootstrap 5.0 Grid System](https://getbootstrap.com/docs/5.0/layout/grid/)
++ Font pairing: [2020 Most Popular Fonts](https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/)
+    + Montserrat | Oswald - "The Monsterrat font was designed in agreement with the urban typography of the 20th century. The generous spacing between the letters is one of the striking characteristics of this font and makes it so convenient to follow. On the other hand, the Oswald font is known for its narrow appearance in spacing and letters. Together, they make an ideal impact in the mind of viewers."
 
 ## Testing
 
@@ -107,5 +109,11 @@ Coming soon...
 
 ### Media
 
-+ The images / photos used on the home and sign up page are from the following Open-Source sites and are part of the Creative Commons Licensing.
++ The images / photos used on all the pages are from the following Open-Source sites and are part of the Creative Commons Licensing.
     + [PX Here site](https://pxhere.com/) - "Free of copyrights under CC0. Do whatever you want."
+
+### Wireframes
++ ![Home Page](https://github.com/greggo58/CI-MS1-LifeguardBeaches/blob/master/assets/images/Lifeguard%20Static%20Site%20Home%20Page.png)
++ ![Safety Equipment Page](https://github.com/greggo58/CI-MS1-LifeguardBeaches/blob/master/assets/images/Lifeguard%20Static%20Site%20Safety%20Equipment%20Page.png)
++ ![Events & Activities Page](https://github.com/greggo58/CI-MS1-LifeguardBeaches/blob/master/assets/images/Lifeguard%20Static%20Site%20Events%20Page.png)
++ ![Contact Page](https://github.com/greggo58/CI-MS1-LifeguardBeaches/blob/master/assets/images/Lifeguard%20Static%20Site%20Emergency%20Contact%20Page.png)
