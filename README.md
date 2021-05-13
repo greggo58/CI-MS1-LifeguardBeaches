@@ -1,59 +1,111 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# LIFEGUARD BEACHES!
 
-Welcome USER_NAME,
+This site hopes to be a hub of information for lifeguard beaches located in South East England. The primary focus will be to provide weather and beach locations with lifeguards on duty. Secondary focus will be on marine safety equipment for watersports; to showcase public beach events about lifesaving such as public demonstrations, safety seminars, and competitions. The site is targeted at the general public: young people wishing to compete or become a lifesaver, parents / adults wanting to enjoy their time on the beach with family in relative safety, marine sports enthusiasts, and lifesavers. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+![Lifebuoy](https://c.pxhere.com/photos/2f/99/lifeguard_summer_beach_sand_sea-224.jpg!d)
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The features are set out in a way to display consumable data to the user in small bite-sized pieces.
 
-`python3 -m http.server`
+### Existing Features
 
-A blue button should appear to click: _Make Public_,
++ __Hero Image__
 
-Another blue button should appear to click: _Open Browser_.
+    + Spanning 4 pages is a "Hero" image depicting a beach with a lifesaving device.
+    + The image will make it clear to the purpose of the site
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
++ __Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+    + Spanning 4 pages is a set of 4 navigation buttons on a mobile-first responsive navigation bar.
+    + The buttons are be styled in such a way to make it easily distinguishable which page you are on and to provide context to the content on the page below.
+    + The buttons have an on-hover event with radial shadow
+    + The navigation buttons are large and coloured separately to make them easy to select on mobile devices.
+    + Use of device navigation is unnecessary as the navigation is intuitive and easy to understand.
 
-Another blue button should appear to click: _Open Browser_.
++ __Home / Landing Page__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    + __Weather Section__
 
-To log into the Heroku toolbelt CLI:
+        + Two mobile responsive panes of consumable weather information for the user.
+        + The panes display the weather for today versus tomorrow.
+        + Information will be on Tides, UV Index, Wind, Temperatures, and Surf Conditions
+        + Useful to decide if tomorrow is better to attend the beach for activities.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    + __Maps Section__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+        + A mobile section with an embedded Google Maps iframe - defaulted to a search on beaches in SE England with Lifeguards on duty
+        + Useful for "on the fly" quick view to get an idea of where to go for some time on the beach or for marine watersports
 
-## Updates Since The Instructional Video
++ __Safety Equipment Page__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    + A mobile-responsive list of safety equipment for the beach and other marine sports
+    + Examples include high-vis swimming buoys, helmets, harnesses, gloves, lifesaving buoys, etc.
+    + Useful for general information to make encourage users to be informed
+    + Not a sales page!
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
++ __Events & Activities Page__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    + A list of upcoming events and activities - focus on beaches and marine sports and tageted at all ages
+    + Will be updated based on date and events
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
++ __Contact Page__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    + A section to for general enquiries
+    + Useful for question about the site and for further information
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
++ __Footer__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    + Spanning 4 pages is the footer section
+    + Links to external resources (ICE - In Case of Emergency contact information)
+    + Links to social media to encourage interaction with the events and available services
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Design Choices
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
++ Core colour: #e50000 [Lifeguard Red](https://icolorpalette.com/color/lifeguard-red)
++ Palette selection based on core colour: [Matching Gradient](https://mycolor.space/?hex=%23E50000&sub=1)
+    + #E50000 #F70068 #D217BF #5A66FE #0088FF #0097E8
++ CSS Color Gradient: [ColorSpace 3-Color Gradient](https://mycolor.space/gradient3) `background-image: linear-gradient(to right top, #e50000, #f10031, #f60054, #f50075, #ec0095, #e020ad, #ce36c5, #b549da, #9a5eea, #7b6ff5, #537dfc, #0088ff);`
++ Button CSS hover events: [cdjns hover.css](https://cdnjs.com/libraries/hover.css) | [IanLunn / Hover](https://github.com/IanLunn/Hover/blob/master/css/hover.css) /* Shadow Radial */
++ Layout: [Bootstrap 5.0 Grid System](https://getbootstrap.com/docs/5.0/layout/grid/)
 
----
+## Testing
 
-Happy coding!
+### Validator Testing 
+
+Coming soon...
+
+### Unfixed Bugs
+
+Coming soon...
+
+## Deployment
+
+Coming soon...
+
+## Credits
+
+### Reference Sites
+
++ [GitHub](https://github.com/)
++ [GitPod](https://gitpod.io/)
++ [Bootstrap](https://getbootstrap.com/)
++ [Font Awesome](https://fontawesome.com/)
++ [Google Fonts](https://fonts.google.com/)
++ [iColorPalette](https://icolorpalette.com/)
++ [ColorSpace](https://mycolor.space/)
++ [cdjns](https://cdnjs.com/)
+
+### Content
+
++ README file help
+    + [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template)
+    + [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    + [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+### Media
+
++ The images / photos used on the home and sign up page are from the following Open-Source sites and are part of the Creative Commons Licensing.
+    + [PX Here site](https://pxhere.com/) - "Free of copyrights under CC0. Do whatever you want."
