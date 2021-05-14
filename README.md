@@ -72,6 +72,7 @@ The features are set out in a way to display consumable data to the user in smal
 + Layout: [Bootstrap 5.0 Grid System](https://getbootstrap.com/docs/5.0/layout/grid/)
 + Font pairing: [2020 Most Popular Fonts](https://govisually.com/blog/2020s-top-20-google-font-pairs-for-your-next-project/)
     + Montserrat | Oswald - "The Monsterrat font was designed in agreement with the urban typography of the 20th century. The generous spacing between the letters is one of the striking characteristics of this font and makes it so convenient to follow. On the other hand, the Oswald font is known for its narrow appearance in spacing and letters. Together, they make an ideal impact in the mind of viewers."
++ Able to have responsive map and weather together. This means ICE information will move to left side of map and social media will remain the footer.
 
 ## Testing
 
@@ -99,7 +100,7 @@ Coming soon...
 + [iColorPalette](https://icolorpalette.com/)
 + [ColorSpace](https://mycolor.space/)
 + [cdjns](https://cdnjs.com/)
-+ [OpenLayers](https://openlayers.org/)
++ [Map & Weather](https://www.windy.com/-Embed-widget-on-page/widgets?50.870,-1.309,5)
 
 ### Content
 

@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/afff5cb2aa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+    <link href="//www.surf-forecast.com/stylesheets/widget.css" media="screen" rel="stylesheet" type="text/css" />
 
     <!-- js for map -->
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
@@ -47,24 +49,17 @@
     <!-- Section -->
     <section class="container-fluid g-0">
         <div class="row g-0">
-            <!-- Weather Information -->
+            <!-- ICE Information -->
             <div class="col-md-4 g-0">
-                <div class="row g-0">
-                    <div class="col-12 g-0">
-                        <h1>Today's Weather Here</h1>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-12 g-0">
-                        <h1>Tomorrow's Weather Here</h1>
-                    </div>
-                </div>
+                <h1>ICE Information Here</h1>
             </div>
             <!-- Maps -->
             <div class="col-md-8 g-0">
                 <div class="row g-0">
                     <div class="col-12 g-0">
-                        <div id="map" class="map"></div>
+                        <iframe width="100%" height="600"
+                            src="https://embed.windy.com/embed2.html?lat=48.312&lon=-1.318&detailLat=50.870&detailLon=-1.309&width=600&height=600&zoom=8&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=true&calendar=24&pressure=true&type=map&location=coordinates&detail=true&metricWind=mph&metricTemp=%C2%B0C&radarRange=-1"
+                            frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -74,11 +69,7 @@
     <!-- Footer -->
     <footer class="container-fluid g-0">
         <div class="row g-0">
-            <div class="col-6 g-0">
-                <!-- ICE Information -->
-                <h1>ICE Information Here</h1>
-            </div>
-            <div class="col-6 g-0">
+            <div class="col-12 g-0">
                 <!-- Social Media Links -->
                 <h1>Social Media Links Here</h1>
             </div>
@@ -89,18 +80,18 @@
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
     </script>
     <script type="text/javascript">
-      var map = new ol.Map({
-        target: 'map',
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([-1.237095676281491, 50.8186531615335]),
-          zoom: 12
-        })
-      });
+        var map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM()
+                })
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([-1.237095676281491, 50.8186531615335]),
+                zoom: 12
+            })
+        });
     </script>
 </body>
 
