@@ -15,6 +15,11 @@ h4 {
     margin: 0;
 }
 
+.map {
+        height: 400px;
+        width: 100%;
+      }
+
 /* ----------------------------------- Background Colours */
 
 /*.body-bg-color {

@@ -34,7 +34,7 @@ The features are set out in a way to display consumable data to the user in smal
 
     + __Maps Section__
 
-        + A mobile section with an embedded Google Maps iframe - defaulted to a search on beaches in SE England with Lifeguards on duty
+        + A mobile section with an embedded map - defaulted to a search on beaches in SE England with Lifeguards on duty
         + Useful for "on the fly" quick view to get an idea of where to go for some time on the beach or for marine watersports
 
 + __Safety Equipment Page__
@@ -99,6 +99,7 @@ Coming soon...
 + [iColorPalette](https://icolorpalette.com/)
 + [ColorSpace](https://mycolor.space/)
 + [cdjns](https://cdnjs.com/)
++ [OpenLayers](https://openlayers.org/)
 
 ### Content
 
