@@ -13,13 +13,41 @@ h2,
 h3,
 h4 {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
 }
 
-/* ----------------------------------- Background Colours */
+/* ----------------------------------- Colours */
 
-/*.body-bg-color {
-    background-image: linear-gradient(to left bottom, #e50000, #f10031, #f60054, #f50075, #ec0095, #e020ad, #ce36c5, #b549da, #9a5eea, #7b6ff5, #537dfc, #0088ff);
-}*/
+.body-bg-color {
+    /*background-image: linear-gradient(to left bottom, #e50000, #f10031, #f60054, #f50075, #ec0095, #e020ad, #ce36c5, #b549da, #9a5eea, #7b6ff5, #537dfc, #0088ff);*/
+    background-color: #e50000;
+}
+
+.navbar-bg-color-home {
+    background-color: #00173a;
+    border-left: 1px solid #335282;
+}
+
+.navbar-bg-color-safety-equipment {
+    background-color: #00173a;
+    border-left: 1px solid #335282;
+}
+
+.navbar-bg-color-events-activities {
+    background-color: #00173a;
+    border-left: 1px solid #335282;
+}
+
+.navbar-bg-color-contact {
+    background-color: #00173a;
+    border-left: 1px solid #335282;
+}
+
+.bg-color-ice-information {
+    background-color: #f4f4f4;
+}
 
 /* ----------------------------------- Heading */
 
@@ -39,36 +67,144 @@ header {
     -o-transition: all .5s ease-in-out;
 }
 
-/* ----------------------------------- Background Colour For Testing Divs */
-
-.bg-color-test1 {
-    background-color: blueviolet;
+.row-title {
+    margin-top: 40px;
+    margin-bottom: 165px;
 }
 
-.bg-color-test2 {
-    background-color: brown;
+.text-title {
+    padding-left: 20px;
+    color: #f4f4f4
 }
 
-.bg-color-test3 {
-    background-color: cadetblue;
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
 }
 
-.bg-color-test4 {
-    background-color: chartreuse;
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
-.bg-color-test5 {
-    background-color: deeppink;
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
 }
 
-.bg-color-test6 {
-    background-color: gold;
+.menucontainer {
+    font-size: 0;
 }
 
-.bg-color-test7 {
-    background-color: green;
+#nav {
+    margin: 0;
 }
 
-.bg-color-test8 {
-    background-color: orchid;
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fdc663;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding: 22px 0 11px 0;
+    display: block;
+    color: #fdc663;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+/* ----------------------------------- Hover.css */
+
+/* Shadow Radial */
+.hvr-shadow-radial {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-shadow-radial:before, .hvr-shadow-radial:after {
+  pointer-events: none;
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  height: 5px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.hvr-shadow-radial:before {
+  bottom: 100%;
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.hvr-shadow-radial:after {
+  top: 100%;
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
+  opacity: 1;
+}
+
+/* ----------------------------------- Footer */
+
+footer {
+    background-color: #00173a;
+    color: #fdc663;
+    min-height: 120px;
+}
+
+/* ----------------------------------- ICE Contact Information */
+
+.ice-information-heading {
+    padding: 20px 0px 40px 0px;
+}
+
+.ice-information-subheading-emergency {
+    font-size: 44px;
+    font-weight: 800;
+    color: #e50000;
+}
+
+.ice-information-subheading-non-emergency {
+    font-size: 44px;
+    font-weight: 800;
+    color: #175a09;
+}
+
+.ice-information {
+    padding-left: 20px;
 }
