@@ -233,6 +233,13 @@ footer {
     background-color: #e50000;
 }
 
+/* ----------------------------------- Map */
+
+.map-params {
+    width: 100%;
+    height: 600px;
+}
+
 /* ----------------------------------- ICE Contact Information */
 
 .ice-information-heading {
