@@ -61,6 +61,10 @@ h4 {
     background-color: #f4f4f4;
 }
 
+.bg-color-safety-equipment  {
+    background-color: #f4f4f4;
+}
+
 /* ----------------------------------- Heading */
 
 header {
@@ -266,7 +270,27 @@ button[type="submit"] {
 /* ----------------------------------- Events & Activities */
 
 .events-and-activities-text-title {
-    margin-top: 20px;
+    margin: 20px 0 30px 0;
     color: #00173a;
     font-size: 36px;
+}
+
+.events-and-activities-div {
+    padding: 5px 20px 5px 20px;
+}
+
+/* ----------------------------------- Safety Equipment */
+
+.safety-equipment-text-title {
+    margin: 20px 0 30px 0;
+    color: #00173a;
+    font-size: 36px;
+}
+
+.safety-equipment-image {
+    padding: 20px;
+}
+
+.safety-equipment-text {
+     padding: 10px;
 }
