@@ -78,7 +78,8 @@ header {
 
 .text-title {
     padding-left: 20px;
-    color: #f4f4f4
+    color: #f4f4f4;
+    font-size: 36px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -93,10 +94,6 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
 }
 
 .menucontainer {
