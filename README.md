@@ -78,7 +78,8 @@ The features are set out in a way to display consumable data to the user in smal
 
 ### Validator Testing 
 
-Coming soon...
+HTML - green
+CSS - green
 
 ### Unfixed Bugs
 
