@@ -200,8 +200,17 @@ footer {
     min-height: 120px;
 }
 
+.social-header {
+    margin: 20px;
+}
+
 .social-links {
     padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.social-links li {
+    margin: 0 10px;
 }
 
 .social-links li a i {
