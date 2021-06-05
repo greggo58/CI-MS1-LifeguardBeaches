@@ -39,12 +39,13 @@
                                             aria-hidden="true"></i> Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 navbar-bg-color-safety-equipment list-inline-item menuitem">
-                                <a href="safety-equipment.html" class="hvr-shadow-radial"><span><i class="far fa-life-ring"
-                                            aria-hidden="true"></i> Safety Equipment</span></a>
+                                <a href="safety-equipment.html" class="hvr-shadow-radial"><span><i
+                                            class="far fa-life-ring" aria-hidden="true"></i> Safety Equipment</span></a>
                             </li>
                             <li class="col-6 col-sm-3 navbar-bg-color-events-activities list-inline-item menuitem">
-                                <a href="events-and-activities.html" class="hvr-shadow-radial"><span><i class="fas fa-calendar-alt"
-                                            aria-hidden="true"></i> Events & Activities</span></a>
+                                <a href="events-and-activities.html" class="hvr-shadow-radial"><span><i
+                                            class="fas fa-calendar-alt" aria-hidden="true"></i> Events &
+                                        Activities</span></a>
                             </li>
                             <li class="col-6 col-sm-3 navbar-bg-color-contact list-inline-item menuitem">
                                 <a href="contact.html" class="hvr-shadow-radial"><span><i class="fas fa-comment"
@@ -60,43 +61,30 @@
 
     <!-- Section -->
     <section class="container-fluid g-0">
-        <div class="row g-0">
-            <!-- ICE Information -->
-            <div class="col-md-4 bg-color-ice-information g-0">
-                <div class="row g-0">
-                    <div class="col-12 ice-information-heading">
-                        <h1>ICE Information</h1>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-6 ice-information">
-                        <p class="ice-information-subheading-emergency">999</p>
-                        <p>National Emergency Number</p>
-                    </div>
-                    <div class="col-6 ice-information">
-                        <p class="ice-information-subheading-emergency">112</p>
-                        <p>International Emergency Number</p>
-                    </div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-6 ice-information">
-                        <p class="ice-information-subheading-non-emergency">111</p>
-                        <p>National Non-Emergency Medical Number</p>
-                    </div>
-                    <div class="col-6 ice-information">
-                        <p class="ice-information-subheading-non-emergency">101</p>
-                        <p>National Non-Emergency Police Number</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Map -->
-            <div class="col-md-8 g-0">
-                <div class="row g-0">
-                    <div class="col-12 g-0">
-                        <iframe width="100%" height="600"
-                            src="https://embed.windy.com/embed2.html?lat=48.312&lon=-1.318&detailLat=50.870&detailLon=-1.309&width=600&height=600&zoom=8&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=true&calendar=24&pressure=true&type=map&location=coordinates&detail=true&metricWind=mph&metricTemp=%C2%B0C&radarRange=-1"
-                            frameborder="0"></iframe>
-                    </div>
+        <div class="row g-0 bg-color-contact-form">
+            <div class="col-12">
+                <h3 class="contact-text-title uppercase text-center">Enquiries</h3>
+                <div class="center-form">
+                    <form>
+                        <div class="mb-3">
+                            <label for="contactFormFirstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="contactFormFirstName"
+                                aria-describedby="fNameHelp">
+                            <div id="fNameHelp" class="form-text">First name only.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactFormEmailAddress" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="contactFormEmailAddress"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactFormEnquiry" class="form-label">Enquiry Details</label>
+                            <textarea name="contactFormEnquiry" id="contactFormEnquiry" cols="" rows="5" class="form-control" placeholder="" aria-describedby="enquiryHelp" required></textarea>
+                            <div id="enquiryHelp" class="form-text">Maximum 1000 characters.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -108,28 +96,28 @@
             <div class="col-12 g-0">
                 <!-- Social Media Links -->
                 <div class="col-sm-4">
-                <h5 class="uppercase">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a href="https://www.facebook.com/" target="_blank">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="visually-hidden">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.twitter.com/" target="_blank">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="visually-hidden">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.youtube.com/" target="_blank">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="visually-hidden">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                    <h5 class="uppercase">Social</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="visually-hidden">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="visually-hidden">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="visually-hidden">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
